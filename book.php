@@ -1,4 +1,4 @@
-<?php
+<?php 
 class Book {
     public $ISBN;
     public $title;
@@ -9,8 +9,7 @@ class Book {
     public $author;
     public $publisher;
 
-    public function __construct($ISBN, $title, $description, $category, $language, $numberOfPage, $author, $publisher) 
-    {
+    public function __construct($ISBN, $title, $description, $category, $language, $numberOfPage, $author, $publisher) {
         $this->ISBN = $ISBN;
         $this->title = $title;
         $this->description = $description;
@@ -21,8 +20,7 @@ class Book {
         $this->publisher = $publisher;
     }
 
-    public function showAll() 
-    {
+    public function showAll() {
         return array(
             "ISBN" => $this->ISBN,
             "title" => $this->title,
@@ -35,8 +33,7 @@ class Book {
         );
     }
 
-    public function detail($ISBN) 
-    {
+    public function detail($ISBN) {
         if ($ISBN == $this->ISBN) {
             return $this->showAll();
         } else {
@@ -44,3 +41,4 @@ class Book {
         }
     }
 }
+
