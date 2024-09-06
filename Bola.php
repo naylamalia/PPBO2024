@@ -13,7 +13,5 @@ class Bola
         return (4/3) * self::PHI * pow($this->jari_jari, 3);
     }
 }
-
-
 $bola = new Bola(7);
 echo "Volume Bola: " . $bola->volume() . " cm³\n";

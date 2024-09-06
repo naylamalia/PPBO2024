@@ -17,7 +17,6 @@ class Lingkaran
         return 2 * self::PHI * $this->jari_jari;
     }
 }
-
 $lingkaran = new Lingkaran(10);
 echo "Luas Lingkaran: " . $lingkaran->luas() . " cm²\n";
 echo "Keliling Lingkaran: " . $lingkaran->keliling() . " cm\n";

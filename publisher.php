@@ -17,5 +17,4 @@ class Publisher {
     public function getPhone() {
         return $this->phone;
     }
-
 }

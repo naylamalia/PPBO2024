@@ -1,4 +1,5 @@
 <?php
+
 class Tabung
 {
     const PHI = 3.14;

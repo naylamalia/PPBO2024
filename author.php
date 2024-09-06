@@ -17,5 +17,4 @@ class Author {
             return "Invalid type";
         }
     }
-
 }
