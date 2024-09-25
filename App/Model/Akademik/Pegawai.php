@@ -1,5 +1,5 @@
 <?php
-namespace App\Admin;
+namespace App\Model\Akademik;
 
 class Pegawai
 {
@@ -26,7 +26,7 @@ class Pegawai
         return false; 
     }
 
-    public function getNoHp(): int
+    protected function getNoHp(): int
     {
         return $this->no_hp;
     }
@@ -35,4 +35,5 @@ class Pegawai
     {
         $this->no_hp = $no_hp;
     }
+    
 }
